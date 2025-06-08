@@ -1,0 +1,197 @@
+/*body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #002244;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.hero-section {
+    background-image: url('/assets/banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.job-listings {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px;
+    align-items: center;
+}
+
+.job-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    width:443px;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #002244;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 40px;
+}
+.pageIcon {
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+.nav-title {
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+}
+
+.MuiAppBar-root {
+    background-color: #002244 !important;  /* Deep navy blue for a professional look */
+*/
+/*
+.search {
+    background-color: rgba(219, 34, 34, 0.15);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+    align-items: left;
+}
+
+.MuiInputBase-root {
+    color: #d21414 !important;
+}
+
+.MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MuiIconButton-root:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+}*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #002244;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.content-container {
+    display: block !important; 
+    visibility: visible !important; 
+    opacity: 1 !important;
+}
+
+.content-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start; /* Ensures search bar stays fixed */
+}
+
+.search-section {
+    width: 25%;
+    min-width: 250px;  /* Prevents resizing */
+    position: sticky;
+    top: 20px;  /* Keeps the search bar fixed while scrolling */
+}
+
+.search-section input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #002244;
+    border-radius: 20px;
+    outline: none;
+}
+
+.job-list {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 columns for better alignment */
+    gap: 20px;
+    padding: 20px;
+}
+
+.job-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
+    gap: 20px; /* Spacing between cards */
+    padding: 20px; /* Padding around the card container */
+}
+
+.job-card {
+    background-color: #fff;
+    border: 2px solid #004aad; /* Improved border color for better visibility */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.job-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for hover */
+}
+
+
+.footer {
+    background-color: #002244;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    bottom: 0;
+    position: inherit;
+}
